@@ -1,0 +1,9 @@
+header div#branding img{
+    width: 3.0em;
+    height: 3.0em;
+}
+ 
+ header div#branding{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em; 
+}
