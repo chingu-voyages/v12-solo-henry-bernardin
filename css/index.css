@@ -1,4 +1,4 @@
-body{  box-sizing: border-box;
+body{  
     margin: 0; 
     padding: 0; 
     background-color: #ffffff;
@@ -10,8 +10,16 @@ body{  box-sizing: border-box;
     margin: auto;
     overflow: hidden;
 }
+ul{
+    margin: 0;
+    padding: 0;
+}
 
 /* Navigation Bar */
+header, nav{
+    min-height: 59px;
+}
+
 #nav-links li#brand{
     font-family: 'Luckiest Guy', cursive;
     color: #ffffff;
@@ -27,6 +35,9 @@ ul#nav-links {
     padding: 0;
     overflow: hidden;
     background-color: #3C0085;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #nav-links li{
@@ -40,3 +51,9 @@ ul#nav-links {
     text-align: center;
     color: #ffffff;
 }
+
+section#addToSlack h1{
+    font-family: 'Mansalva', cursive;
+}
+
+/*  Add To Slack Section */
