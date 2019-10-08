@@ -1,4 +1,4 @@
-*{  box-sizing: border-box;
+body{  box-sizing: border-box;
     margin: 0; 
     padding: 0; 
     background-color: #ffffff;
@@ -11,32 +11,32 @@
     overflow: hidden;
 }
 
-ul{
-    margin: 0;
-    padding: 0
+/* Navigation Bar */
+#nav-links li#brand{
+    font-family: 'Luckiest Guy', cursive;
+    color: #ffffff;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 37px;
 }
 
-/* Header */
-header{
-    background: #3c0085;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-}
-#nav-links{
-    list-style: none;
+ul#nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C0085;
 }
 
 #nav-links li{
-    display: inline-block;
+   float:right;
 }
 
-header p{
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 2em;
-}
-
-header img{
-    width: 2.0em;
-    height: 2.0em;
+#nav-links a{
+    display: block;
+    padding: 20px 8px 0 8px; 
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
 }
