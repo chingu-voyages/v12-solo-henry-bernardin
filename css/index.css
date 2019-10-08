@@ -1,4 +1,4 @@
-body{
+*{  box-sizing: border-box;
     margin: 0; 
     padding: 0; 
     background-color: #ffffff;
@@ -20,29 +20,23 @@ ul{
 header{
     background: #3c0085;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-links{
+    list-style: none;
 }
 
-header a{
-    text-decoration: none;
-    color: #ffffff;
+#nav-links li{
+    display: inline-block;
 }
 
-header div#branding img{
-    width: 3.0em;
-    height: 3.0em;
-}
- 
- header div#branding{
+header p{
     font-family: 'Luckiest Guy', cursive;
-    font-size: 2em; 
+    font-size: 2em;
 }
 
-header nav{
-    float: right;
-    
-}
-header nav ul li{
-    display: inline;
-    float: right;
-    padding: 0 5px;
+header img{
+    width: 2.0em;
+    height: 2.0em;
 }
