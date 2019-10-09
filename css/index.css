@@ -52,8 +52,16 @@ ul#nav-links {
     color: #ffffff;
 }
 
+/*  Add To Slack Section */
+section#addToSlack{
+    background-color: #3C0085;
+}
 section#addToSlack h1{
     font-family: 'Mansalva', cursive;
+    font-size: 5em;
+    margin-left: .8em;
+    color: #ffffff;
 }
 
-/*  Add To Slack Section */
+
+
