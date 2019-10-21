@@ -71,6 +71,8 @@ section#addToSlack h1 {
     font-size: 5em;
     margin-left: .8em;
     color: #ffffff;
+    width: 500px;
+    height: 400px;
 }
 
 section#addToSlack .container button {
@@ -78,6 +80,7 @@ section#addToSlack .container button {
     border-radius: 5%;
     font-size: 1.5rem;
     text-align: center;
+    margin-left: 5rem;
 }
 
 section#addToSlack .container button i {
@@ -85,7 +88,15 @@ section#addToSlack .container button i {
 }
 
 section#addToSlack .container img#ana {
-    margin-left: 10px ;
-    width: 480px;
-    height: 400px;
+    margin-left: 700px ;
+    width: 580px;
+    height: 700px;
+}
+
+/* Section Jobs */
+section#jobs {
+    background-color:#F0F2F4 ;
+}
+section#jobs .container img {
+    width: 300px;
 }
