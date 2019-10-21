@@ -1,26 +1,35 @@
-body{  
+* {
+box-sizing: border-box;
+}
+
+body {  
     margin: 0; 
     padding: 0; 
     background-color: #ffffff;
 }
 
 /* Global */
-.container{
+.container {
     width: 100%;
     margin: auto;
     overflow: hidden;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
 
+span.bold {
+    font-weight: 700;
+}
+
 /* Navigation Bar */
-header, nav{
+header, nav {
     min-height: 59px;
 }
 
-#nav-links li#brand{
+#nav-links li#brand {
     font-family: 'Luckiest Guy', cursive;
     color: #ffffff;
     float: left;
@@ -40,11 +49,11 @@ ul#nav-links {
     width: 100%;
 }
 
-#nav-links li{
+#nav-links li {
    float:right;
 }
 
-#nav-links a{
+#nav-links a {
     display: block;
     padding: 20px 8px 0 8px; 
     text-decoration: none;
@@ -53,15 +62,30 @@ ul#nav-links {
 }
 
 /*  Add To Slack Section */
-section#addToSlack{
+section#addToSlack {
     background-color: #3C0085;
 }
-section#addToSlack h1{
+
+section#addToSlack h1 {
     font-family: 'Mansalva', cursive;
     font-size: 5em;
     margin-left: .8em;
     color: #ffffff;
 }
 
+section#addToSlack .container button {
+    padding: 1rem 2.0rem;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
 
+section#addToSlack .container button i {
+    margin-right: 10px ;
+}
 
+section#addToSlack .container img#ana {
+    margin-left: 10px ;
+    width: 480px;
+    height: 400px;
+}
