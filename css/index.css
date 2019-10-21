@@ -97,6 +97,10 @@ section#addToSlack .container img#ana {
 section#jobs {
     background-color:#F0F2F4 ;
 }
-section#jobs .container img {
-    
+
+section#jobs #job-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
