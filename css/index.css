@@ -1,5 +1,5 @@
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {  
@@ -50,7 +50,7 @@ ul#nav-links {
 }
 
 #nav-links li {
-   float:right;
+    float:right;
 }
 
 #nav-links a {
@@ -104,3 +104,30 @@ section#jobs #job-images {
     justify-items: center;
     align-items: center;
 }
+
+/* Pairing & Onboarding Section */ 
+section#info div#pairing {
+    background-image: url('/images/bud-2013344_640.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+section#info div#pairing h1, 
+section#info div#onboarding h1{
+    font-size: 4rem;
+    font-weight: 400;;
+}
+
+section#info div#pairing p, 
+section#info div#onboarding p{
+    font-size: 1.5rem;
+    font-weight:none;
+}
+
+
+section#info div#onboarding {
+    background-image: url('/images/smartphone-1184883_640.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
