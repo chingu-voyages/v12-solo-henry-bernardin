@@ -131,6 +131,12 @@ section#info div#onboarding {
 }
 
 section#info .container {
-    display: flex;
+   display: flex;
    flex-direction: row;
+}
+
+section#info .box-1, section#info .box-2 {
+    width: 50%;
+    background: #F0F2F4;
+    
 }
