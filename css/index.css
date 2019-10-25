@@ -124,10 +124,13 @@ section#info div#onboarding p{
     font-weight:none;
 }
 
-
 section#info div#onboarding {
     background-image: url('/images/smartphone-1184883_640.png');
     background-repeat: no-repeat;
     background-position: right;
 }
 
+section#info .container {
+    display: flex;
+   flex-direction: row;
+}
