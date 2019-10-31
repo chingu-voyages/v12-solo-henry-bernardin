@@ -138,5 +138,5 @@ section#info .container {
 section#info .box-1, section#info .box-2 {
     width: 50%;
     background: #F0F2F4;
-    
+    border-radius: 5%;
 }
