@@ -130,6 +130,12 @@ section#info div#onboarding {
     background-position: right;
 }
 
+section#info div#pairing {
+    background-image: url('/images/coffee-4575116_640.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 section#info .container {
    display: flex;
    flex-direction: row;
