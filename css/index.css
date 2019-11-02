@@ -106,6 +106,17 @@ section#jobs #job-images {
 }
 
 /* Pairing & Onboarding Section */ 
+section#info .box-1, section#info .box-2{
+    color: #3C0085;
+}
+
+section#info .box-1 a, section#info .box-2 a{
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
 section#info div#pairing {
     background-image: url('/images/bud-2013344_640.png');
     background-repeat: no-repeat;
@@ -121,7 +132,7 @@ section#info div#onboarding h1{
 section#info div#pairing p, 
 section#info div#onboarding p{
     font-size: 1.5rem;
-    font-weight:none;
+    font-weight:300;
 }
 
 section#info div#onboarding {
@@ -137,12 +148,18 @@ section#info div#pairing {
 }
 
 section#info .container {
-   display: flex;
+   display:  flex block;
    flex-direction: row;
+   
 }
 
 section#info .box-1, section#info .box-2 {
-    width: 50%;
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+    padding-bottom: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 3.0%;
     background: #F0F2F4;
     border-radius: 5%;
 }
