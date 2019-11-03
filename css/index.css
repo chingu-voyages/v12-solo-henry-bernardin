@@ -166,6 +166,7 @@ section#info .box-1, section#info .box-2 {
 /* Invision Ceo */ 
 section#invision-ceo .container {
     display: flex; 
+    justify-content: center;
     align-items: center;
     
 }
@@ -197,4 +198,10 @@ section#invision-ceo .container a {
     font-weight: 600;
     font-size: 1.3rem;
     text-decoration: none;
+}
+
+/* Section People */ 
+section#people {
+    background-image: url(/images/avatar-1.png);
+    background-repeat: repeat-x;
 }
