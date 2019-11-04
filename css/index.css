@@ -205,3 +205,9 @@ section#people {
     background-image: url(/images/avatar-1.png);
     background-repeat: repeat-x;
 }
+
+/* Footer */
+footer #box-1 p {
+    font-size: 1.6rem;
+    color: #3C0085;
+}
