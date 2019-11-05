@@ -148,7 +148,7 @@ section#info div#pairing {
 }
 
 section#info .container {
-   display:  flex block;
+   display:  flex ;
    flex-direction: row;
 }
 
@@ -171,14 +171,36 @@ section#invision-ceo .container {
     
 }
 
-section#invision-ceo #ceo-image img{
+section#invision-ceo .container#ceo-image {
+    order: 1;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+section#invision-ceo .container#ceo-quote {
+    order: 2;   
+    justify-content: flex-end; 
+    align-items: center;
+    width: 50%;
+}
+
+section#invision-ceo #ceo-image .image-1{
     border-radius: 50%;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+section#invision-ceo #ceo-image .image-2{
+   margin-left: 8.3rem;
 }
 
 section#invision-ceo .container quote {
     font-size: 3.5rem;
     font-weight: 400;
     color: #3C0085;
+    
 }
 
 section#invision-ceo .container p {
