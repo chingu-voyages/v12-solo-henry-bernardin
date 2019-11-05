@@ -231,10 +231,11 @@ section#invision-ceo .container a {
 }
 
 /* Section People */ 
-section#people .container{
-    width: 100px;
-    height: 100px;
-    background-color: yellow;
+.workers{
+ background-image: url('/images/avatar-1.png');
+ background-repeat: repeat-x;
+ height: 350px;
+ width: 100%;
 }
 
 /* Footer */
