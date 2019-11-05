@@ -62,6 +62,18 @@ ul#nav-links {
 }
 
 /*  Add To Slack Section */
+section#addToSlack .container {
+    display: flex;
+}
+
+section#addToSlack .container .slogan {
+    justify-content: flex-start;
+}
+
+section#addToSlack .container .slogan-image {
+    margin-left: 8rem;
+}
+
 section#addToSlack {
     background-color: #3C0085;
 }
@@ -86,12 +98,12 @@ section#addToSlack .container button {
 section#addToSlack .container button i {
     margin-right: 10px ;
 }
-
+/*
 section#addToSlack .container img#ana {
     margin-left: 700px ;
     width: 580px;
     height: 700px;
-}
+} */
 
 /* Section Jobs */
 section#jobs {
@@ -117,12 +129,6 @@ section#info .box-1 a, section#info .box-2 a{
     text-decoration: none;
 }
 
-section#info div#pairing {
-    background-image: url('/images/bud-2013344_640.png');
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
 section#info div#pairing h1, 
 section#info div#onboarding h1{
     font-size: 3.5rem;
@@ -135,6 +141,7 @@ section#info div#onboarding p{
     font-weight:300;
 }
 
+/*
 section#info div#onboarding {
     background-image: url('/images/smartphone-1184883_640.png');
     background-repeat: no-repeat;
@@ -146,6 +153,7 @@ section#info div#pairing {
     background-repeat: no-repeat;
     background-position: left;
 }
+*/
 
 section#info .container {
    display:  flex ;
@@ -153,14 +161,14 @@ section#info .container {
 }
 
 section#info .box-1, section#info .box-2 {
-    width: 60%;
+    width: 80%;
     height: 100%;
     margin-left: 10%;
     padding-bottom: 2.5%;
     padding-left: 2.5%;
     padding-right: 3.0%;
     background: #F0F2F4;
-    border-radius: 5%;
+    border-radius: 4%;
 }
 
 /* Invision Ceo */ 
@@ -223,9 +231,10 @@ section#invision-ceo .container a {
 }
 
 /* Section People */ 
-section#people {
-    background-image: url(/images/avatar-1.png);
-    background-repeat: repeat-x;
+section#people .container{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
 }
 
 /* Footer */
