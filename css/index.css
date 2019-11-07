@@ -71,7 +71,7 @@ section#addToSlack .container .slogan {
 }
 
 section#addToSlack .container .slogan-image {
-    margin-left: 8rem;
+    margin-left: 22rem;
 }
 
 section#addToSlack {
@@ -118,11 +118,11 @@ section#jobs #job-images {
 }
 
 /* Pairing & Onboarding Section */ 
-section#info .box-1, section#info .box-2{
+section#info .box-1, section#info .box-2 {
     color: #3C0085;
 }
 
-section#info .box-1 a, section#info .box-2 a{
+section#info .box-1 a, section#info .box-2 a {
     color: blueviolet;
     font-weight: 600;
     font-size: 1.3rem;
@@ -130,13 +130,13 @@ section#info .box-1 a, section#info .box-2 a{
 }
 
 section#info div#pairing h1, 
-section#info div#onboarding h1{
+section#info div#onboarding h1 {
     font-size: 3.5rem;
     font-weight: 400;
 }
 
 section#info div#pairing p, 
-section#info div#onboarding p{
+section#info div#onboarding p {
     font-size: 1.5rem;
     font-weight:300;
 }
@@ -176,7 +176,6 @@ section#invision-ceo .container {
     display: flex; 
     justify-content: center;
     align-items: center;
-    
 }
 
 section#invision-ceo .container#ceo-image {
@@ -201,14 +200,13 @@ section#invision-ceo #ceo-image .image-1{
 }
 
 section#invision-ceo #ceo-image .image-2{
-   margin-left: 8.3rem;
+    margin-left: 8.3rem;
 }
 
 section#invision-ceo .container quote {
     font-size: 3.5rem;
     font-weight: 400;
     color: #3C0085;
-    
 }
 
 section#invision-ceo .container p {
@@ -232,14 +230,25 @@ section#invision-ceo .container a {
 
 /* Section People */ 
 .workers{
- background-image: url('/images/avatar-1.png');
- background-repeat: repeat-x;
- height: 350px;
- width: 100%;
+    background-image: url('/images/avatar-1.png');
+    background-repeat: repeat-x;
+    height: 350px;
+    width: 100%;
 }
 
 /* Footer */
 footer #box-1 p {
     font-size: 1.6rem;
     color: #3C0085;
+}
+
+footer input, footer button {
+    padding: 4px;
+    height: 50px;
+    width: 250px;
+}
+
+footer .box-2 a {
+    text-decoration: none;
+    
 }
