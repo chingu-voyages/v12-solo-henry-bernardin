@@ -27,6 +27,7 @@ span.bold {
 /* Navigation Bar */
 header, nav {
     min-height: 59px;
+    border-bottom: #3C0085 solid 1.5px;
 }
 
 #nav-links li#brand {
