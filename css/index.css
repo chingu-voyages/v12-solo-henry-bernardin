@@ -233,8 +233,9 @@ section#invision-ceo .container a {
 .workers{
     background-image: url('/images/avatar-1.png');
     background-repeat: repeat-x;
-    height: 350px;
+    height: 200px;
     width: 100%;
+    background-position-y: -150px;
 }
 
 /* Footer */
