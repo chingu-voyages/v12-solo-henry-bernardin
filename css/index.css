@@ -285,9 +285,21 @@ footer input, footer button {
     padding: 4px;
     height: 50px;
     width: 250px;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2%;
+}
+
+footer button {
+    background: blueviolet;
+    color: #ffffff;
+}
+
+footer input::placeholder {
+    color: blueviolet;
 }
 
 footer .box-2 a {
     text-decoration: none;
-    
 }
