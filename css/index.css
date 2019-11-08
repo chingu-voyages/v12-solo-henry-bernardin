@@ -238,8 +238,45 @@ section#invision-ceo .container a {
 }
 
 /* Footer */
+footer {
+    background-color: #F0F2F4;
+}
+
+footer .container {
+    display: flex;
+    justify-content:space-around;
+}
+
+footer #box-2 a {
+    text-decoration: none;
+    display: block;
+    margin: 12px;
+}
+
+footer #box-3 a {
+    margin-top: 12px;
+    display: block;
+    float: left;
+    margin-left: 2.1rem;
+    color: blueviolet;
+}
+
+footer #box-3 i {
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+footer #box-3 i:hover,
+footer #box-2 a:hover {
+    color: #3C0085;
+}
+
 footer #box-1 p {
     font-size: 1.6rem;
+    color: #3C0085;
+}
+
+footer #box-3 p {
     color: #3C0085;
 }
 
