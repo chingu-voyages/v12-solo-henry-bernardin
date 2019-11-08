@@ -25,24 +25,30 @@ span.bold {
 }
 
 /* Navigation Bar */
+nav {
+    background: #3C0085;
+}
+
 header, nav {
     min-height: 59px;
     border-bottom: #3C0085 solid 1.5px;
+    height: 150px;
 }
 
 #nav-links li#brand {
     font-family: 'Luckiest Guy', cursive;
     color: #ffffff;
     float: left;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 55px;
+    padding-top: 23px;
     font-size: 37px;
 }
 
 ul#nav-links {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-right: 50px;
+    padding-top: 43px;;
     overflow: hidden;
     background-color: #3C0085;
     position: fixed;
@@ -107,8 +113,9 @@ section#addToSlack .container img#ana {
 } */
 
 /* Section Jobs */
-section#jobs {
+section#jobs .container {
     background-color:#F0F2F4 ;
+    height:365px ;
 }
 
 section#jobs #job-images {
