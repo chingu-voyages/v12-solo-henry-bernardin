@@ -44,6 +44,20 @@ header, nav {
     font-size: 37px;
 }
 
+#nav-links li .sign-in {
+   padding: 12px 20px;
+   margin-top: 9px; 
+   color: #ffffff;
+   background-color: rgba(126, 118, 135, 0.413);
+   border-radius: 7%;
+   font-weight: 600;
+}
+
+#nav-links li .sign-in:hover {
+    transition: all 0.5s ease-out ;
+    background-color: rgba(122, 111, 135, 0.762);
+ }
+
 ul#nav-links {
     list-style-type: none;
     margin: 0;
@@ -62,10 +76,14 @@ ul#nav-links {
 
 #nav-links a {
     display: block;
-    padding: 20px 8px 0 8px; 
+    padding: 20px 10px 0 10px; 
     text-decoration: none;
     text-align: center;
+    color: rgba(240, 242, 244, 0.926);
+}
+#nav-links a:hover {
     color: #ffffff;
+    transition: all 0.5s ease-out;
 }
 
 /*  Add To Slack Section */
@@ -105,6 +123,7 @@ section#addToSlack .container button {
 section#addToSlack .container button i {
     margin-right: 10px ;
 }
+
 /*
 section#addToSlack .container img#ana {
     margin-left: 700px ;
