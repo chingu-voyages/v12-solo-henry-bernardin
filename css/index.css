@@ -211,6 +211,11 @@ section#info .box-1 a, section#info .box-2 a {
     text-decoration: none;
 }
 
+section#info .box-1 a:hover, section#info .box-2 a:hover {
+    color: #3C0085;
+    transition: all 0.5s ease-out;
+}
+
 section#info div#pairing h1, 
 section#info div#onboarding h1 {
     font-size: 3.5rem;
@@ -377,6 +382,12 @@ footer input, footer button {
 footer button {
     background: blueviolet;
     color: #ffffff;
+}
+
+footer button:hover {
+    background: #3C0085;
+    color: #ffffff;
+    transition: all 0.5s ease-out;
 }
 
 footer input::placeholder {
