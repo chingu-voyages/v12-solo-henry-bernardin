@@ -180,13 +180,6 @@ section#addToSlack .container button {
     padding-bottom: 52px; 
 }
 
-/*
-section#addToSlack .container img#ana {
-    margin-left: 700px ;
-    width: 580px;
-    height: 700px;
-} */
-
 /* Section Jobs */
 section#jobs .container {
     background-color:#F0F2F4 ;
@@ -229,29 +222,33 @@ section#info div#onboarding p {
     font-weight:300;
 }
 
-/*
+
 section#info div#onboarding {
     background-image: url('/images/smartphone-1184883_640.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 70% 10%;
+    margin-top: 20px;
 }
 
 section#info div#pairing {
-    background-image: url('/images/coffee-4575116_640.png');
+    background-image: url('/images/donut-1873957_640.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
+    
 }
-*/
+
 
 section#info .container {
    display:  flex ;
    flex-direction: row;
+   height: 600px ;
 }
 
 section#info .box-1, section#info .box-2 {
     width: 80%;
-    height: 100%;
+    height: 300px;
     margin-left: 10%;
+    margin-top: 40%;
     padding-bottom: 2.5%;
     padding-left: 2.5%;
     padding-right: 3.0%;
