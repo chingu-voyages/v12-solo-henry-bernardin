@@ -42,6 +42,7 @@ header, nav {
     padding-left: 55px;
     padding-top: 23px;
     font-size: 37px;
+    transition: all .2s ease ;
 }
 
 #nav-links-white li#brand {
@@ -51,6 +52,8 @@ header, nav {
     padding-left: 55px;
     padding-top: 23px;
     font-size: 37px;
+    transform: translateY(-41%);
+    transition: all .2s ease ;
 }
 
 #nav-links-purple li .sign-in {
@@ -60,21 +63,28 @@ header, nav {
    background-color: rgba(126, 118, 135, 0.413);
    border-radius: 7%;
    font-weight: 600;
+   transition: all .2s ease ;
 }
 
 #nav-links-white li .sign-in {
     padding: 12px 20px;
-    margin-top: 9px; 
+    margin-top: -11px; 
     color: #3C0085;
     background-color: rgba(126, 118, 135, 0.413);
     border-radius: 7%;
     font-weight: 600;
+    transition: all .2s ease ;
  }
 
-#nav-links-purple li .sign-in:hover, 
-#nav-links-white li .sign-in:hover  {
+#nav-links-purple li .sign-in:hover  {
     transition: all 0.5s ease-out ;
     background-color: rgba(122, 111, 135, 0.762);
+ }
+
+ #nav-links-white li .sign-in:hover  {
+    transition: all 0.5s ease-out ;
+    background-color: rgba(122, 111, 135, 0.762);
+    color: #3C0085;
  }
 
 ul#nav-links-purple {
@@ -91,6 +101,7 @@ ul#nav-links-purple {
 
 ul#nav-links-white {
     background-color: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(81, 81, 92, 0.2);
     position: fixed;
     list-style-type: none;
     margin: 0;
@@ -106,14 +117,24 @@ ul#nav-links-white {
     float:right;
 }
 
-#nav-links-purple a,
-#nav-links-white a {
+#nav-links-purple a {
     display: block;
     padding: 20px 10px 0 10px; 
     text-decoration: none;
     text-align: center;
     color: rgba(240, 242, 244, 0.926);
+    transition: all .2s ease ;
 }
+
+#nav-links-white a {
+    display: block;
+    padding: 0px 10px 0 10px; 
+    text-decoration: none;
+    text-align: center;
+    color: #3C0085;
+    transition: all .2s ease ;
+}
+
 #nav-links-purple a:hover,
 #nav-links-white a:hover {
     color: #ffffff;
@@ -312,6 +333,7 @@ footer #box-2 a {
     text-decoration: none;
     display: block;
     margin: 12px;
+    color: #3C0085;
 }
 
 footer #box-3 a {
@@ -361,6 +383,3 @@ footer input::placeholder {
     color: blueviolet;
 }
 
-footer .box-2 a {
-    text-decoration: none;
-}
