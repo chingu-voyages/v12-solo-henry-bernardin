@@ -35,7 +35,7 @@ header, nav {
     height: 150px;
 }
 
-#nav-links li#brand {
+#nav-links-purple li#brand {
     font-family: 'Luckiest Guy', cursive;
     color: #ffffff;
     float: left;
@@ -44,7 +44,16 @@ header, nav {
     font-size: 37px;
 }
 
-#nav-links li .sign-in {
+#nav-links-white li#brand {
+    font-family: 'Luckiest Guy', cursive;
+    color: #3C0085;
+    float: left;
+    padding-left: 55px;
+    padding-top: 23px;
+    font-size: 37px;
+}
+
+#nav-links-purple li .sign-in {
    padding: 12px 20px;
    margin-top: 9px; 
    color: #ffffff;
@@ -53,35 +62,60 @@ header, nav {
    font-weight: 600;
 }
 
-#nav-links li .sign-in:hover {
+#nav-links-white li .sign-in {
+    padding: 12px 20px;
+    margin-top: 9px; 
+    color: #3C0085;
+    background-color: rgba(126, 118, 135, 0.413);
+    border-radius: 7%;
+    font-weight: 600;
+ }
+
+#nav-links-purple li .sign-in:hover, 
+#nav-links-white li .sign-in:hover  {
     transition: all 0.5s ease-out ;
     background-color: rgba(122, 111, 135, 0.762);
  }
 
-ul#nav-links {
+ul#nav-links-purple {
+    background-color: #3C0085;
+    position: fixed;
     list-style-type: none;
     margin: 0;
     padding-right: 50px;
     padding-top: 43px;;
     overflow: hidden;
-    background-color: #3C0085;
-    position: fixed;
     top: 0;
     width: 100%;
 }
 
-#nav-links li {
+ul#nav-links-white {
+    background-color: #ffffff;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 50px;
+    padding-top: 43px;;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+#nav-links-purple li,
+#nav-links-white li {
     float:right;
 }
 
-#nav-links a {
+#nav-links-purple a,
+#nav-links-white a {
     display: block;
     padding: 20px 10px 0 10px; 
     text-decoration: none;
     text-align: center;
     color: rgba(240, 242, 244, 0.926);
 }
-#nav-links a:hover {
+#nav-links-purple a:hover,
+#nav-links-white a:hover {
     color: #ffffff;
     transition: all 0.5s ease-out;
 }
