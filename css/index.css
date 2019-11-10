@@ -168,11 +168,12 @@ section#addToSlack h1 {
 }
 
 section#addToSlack .container button {
-    padding: 1rem 2.0rem;
+    padding: .5rem 1.0rem;
     border-radius: 5%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin-left: 5rem;
+    margin-left: 3.5rem;
+    transform: translateY(-90%);
 }
 
 section#addToSlack .container button i {
