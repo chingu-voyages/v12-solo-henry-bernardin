@@ -160,7 +160,7 @@ section#addToSlack {
 
 section#addToSlack h1 {
     font-family: 'Comfortaa', cursive;
-    font-size: 4.3em;
+    font-size: 4.7em;
     margin-left: .8em;
     color: #ffffff;
     width: 500px;
@@ -168,16 +168,16 @@ section#addToSlack h1 {
 }
 
 section#addToSlack .container button {
-    padding: .5rem 1.0rem;
+    height: 60px;
+    width: 220px;
     border-radius: 5%;
     font-size: 1.3rem;
-    text-align: center;
-    margin-left: 3.5rem;
-    transform: translateY(-90%);
+    margin-left: 3.8rem;
+    line-height: 1;
 }
 
-section#addToSlack .container button i {
-    margin-right: 10px ;
+section#addToSlack .container button {
+    padding-bottom: 52px; 
 }
 
 /*
@@ -314,6 +314,11 @@ section#invision-ceo .container a {
     font-weight: 600;
     font-size: 1.3rem;
     text-decoration: none;
+}
+
+section#invision-ceo .container a:hover {
+    color: #3C0085;
+    transition: all 0.5s ease-out;
 }
 
 /* Section People */ 
