@@ -6,7 +6,7 @@ Donut Landing Page Clone  | Voyage-12 | https://chingu.io/ | https://twitter.com
 
 ### Live Link of Previous Donut Landing Page: https://chingu-coders.github.io/Voyage2-Owls-07/
 
-### LIVE LINK:
+### LIVE LINK: https://keen-gates-395e82.netlify.com/
 
 ## Features 
 
