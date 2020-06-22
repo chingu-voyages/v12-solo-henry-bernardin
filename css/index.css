@@ -403,7 +403,7 @@ footer input::placeholder {
         font-size: .42rem;
     }
     .job-images {
-      
+      flex-direction: column;
     }
 }
 
