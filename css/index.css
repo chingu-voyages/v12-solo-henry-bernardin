@@ -404,9 +404,15 @@ footer input::placeholder {
     .slogan {
         font-size: .42rem;
     }
+
+    section#jobs .container {
+     height: auto;
+     width: auto;
+        
+    }
     section#jobs #job-images {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
     }
