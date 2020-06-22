@@ -183,7 +183,9 @@ section#addToSlack .container button {
 /* Section Jobs */
 section#jobs .container {
     background-color:#F0F2F4 ;
-    height:365px ;
+    /* height:365px ; */
+    height: auto;
+    width: 100%;
 }
 
 section#jobs #job-images {
@@ -402,8 +404,11 @@ footer input::placeholder {
     .slogan {
         font-size: .42rem;
     }
-    .job-images {
-    
+    section#jobs #job-images {
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        align-items: center;
     }
 }
 
