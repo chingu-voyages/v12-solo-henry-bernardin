@@ -234,8 +234,8 @@ section#info div#onboarding {
 
 section#info div#pairing {
     background-image: url('/images/donut-1873957_640.png');
-    background-repeat: no-repeat;
-    background-position: center;
+   background-repeat: no-repeat;
+    background-position: center; 
     
 }
 
@@ -400,21 +400,22 @@ footer input::placeholder {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .slogan {
+    /* .slogan {
         font-size: .42rem;
     }
 
-    section#jobs .container {
+     section#jobs .container {
      height: auto;
      width: auto;
-        
     }
+
     section#jobs #job-images {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         align-items: center;
-    }
+    } */
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
