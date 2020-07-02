@@ -184,16 +184,16 @@ section#addToSlack .container button {
 section#jobs .container {
     background-color:#F0F2F4 ;
     height:365px ;
-    /* height: auto;*/ 
+    /* height: auto; */
     width: 100%; 
 }
 
-section#jobs #job-images {
+/* section#jobs #job-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-}
+} */
 
 /* Pairing & Onboarding Section */ 
 section#info .box-1, section#info .box-2 {
